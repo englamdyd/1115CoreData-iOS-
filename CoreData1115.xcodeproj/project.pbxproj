@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		A4670083219D1040001D458E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4670082219D1040001D458E /* AppDelegate.swift */; };
-		A4670085219D1040001D458E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4670084219D1040001D458E /* ViewController.swift */; };
 		A4670088219D1040001D458E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4670086219D1040001D458E /* Main.storyboard */; };
 		A467008B219D1040001D458E /* CoreData1115.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4670089219D1040001D458E /* CoreData1115.xcdatamodeld */; };
 		A467008D219D1048001D458E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A467008C219D1048001D458E /* Assets.xcassets */; };
 		A4670090219D1048001D458E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A467008E219D1048001D458E /* LaunchScreen.storyboard */; };
+		A4670098219D11A1001D458E /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4670097219D11A1001D458E /* ListVC.swift */; };
+		A467009A219E509C001D458E /* LogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4670099219E509C001D458E /* LogVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A467007F219D1040001D458E /* CoreData1115.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData1115.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4670082219D1040001D458E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A4670084219D1040001D458E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A4670087219D1040001D458E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A467008A219D1040001D458E /* CoreData1115.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData1115.xcdatamodel; sourceTree = "<group>"; };
 		A467008C219D1048001D458E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A467008F219D1048001D458E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4670091219D1048001D458E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4670097219D11A1001D458E /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		A4670099219E509C001D458E /* LogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				A4670082219D1040001D458E /* AppDelegate.swift */,
-				A4670084219D1040001D458E /* ViewController.swift */,
 				A4670086219D1040001D458E /* Main.storyboard */,
 				A467008C219D1048001D458E /* Assets.xcassets */,
 				A467008E219D1048001D458E /* LaunchScreen.storyboard */,
 				A4670091219D1048001D458E /* Info.plist */,
 				A4670089219D1040001D458E /* CoreData1115.xcdatamodeld */,
+				A4670099219E509C001D458E /* LogVC.swift */,
+				A4670097219D11A1001D458E /* ListVC.swift */,
 			);
 			path = CoreData1115;
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4670085219D1040001D458E /* ViewController.swift in Sources */,
+				A4670098219D11A1001D458E /* ListVC.swift in Sources */,
+				A467009A219E509C001D458E /* LogVC.swift in Sources */,
 				A4670083219D1040001D458E /* AppDelegate.swift in Sources */,
 				A467008B219D1040001D458E /* CoreData1115.xcdatamodeld in Sources */,
 			);
